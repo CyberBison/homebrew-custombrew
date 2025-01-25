@@ -7,14 +7,12 @@ class RsyncManager < Formula
     version "1.0.0"
   
     def install
-      prefix.install Dir["*"]
-      bin.install_symlink prefix/"rsync-manager.app/Contents/MacOS/rsync-manager"
+      bin.install "rsync-manager.app"
     end
   
     def caveats
       <<~EOS
-        Rsync Manager is installed! To run the app, execute:
-          open #{prefix}/rsync-manager.app
+        Rsync Manager is installed!
       EOS
     end
   end
