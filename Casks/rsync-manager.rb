@@ -1,8 +1,8 @@
 cask "rsync-manager" do
     version "1.0.0"
-    sha256 "e2e809b3b050a79955a40e4f5bfd419655fc5951ec2898060e981a737ba40517"
+    sha256 "e31e698871bb6a110ad7047f7bbdf7362720841121fdfbafed5ccf09c50e60ef"
   
-    url "https://github.com/CyberBison/rsync-manager/releases/download/v-1.0.0/rsync-manager.zip"
+    url "https://github.com/CyberBison/rsync-manager/releases/download/v-1.0.0/rsync-manager.dmg"
     name "Rsync Manager"
     desc "A macOS app to manage rsync backups easily"
     homepage "https://github.com/CyberBison/rsync-manager"
