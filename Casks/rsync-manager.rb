@@ -5,7 +5,7 @@ cask "rsync-manager" do
     url "https://rsync.cyberbison.io/rsync-manager.dmg"
     name "Rsync Manager"
     desc "A macOS app to manage rsync backups easily"
-    homepage "https://rsync.cyberbison.io"
+    homepage "https://rsync.cyberbison.dev"
   
     app "rsync-manager.app"
   
