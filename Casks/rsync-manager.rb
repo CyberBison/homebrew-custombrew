@@ -1,6 +1,6 @@
 cask "rsync-manager" do
-    version "1.0.2"
-    sha256 "8e78975bba90135da6e65a73f07f20b81fe8c0085d990f344fd956e9467a869b"
+    version "2.0.0"
+    sha256 "546163d3fe6af79c608d9280898ef98213bad482e2d8864c3676bc486a50ac7e"
   
     url "https://rsync.cyberbison.dev/rsync-manager.dmg"
     name "Rsync Manager"
